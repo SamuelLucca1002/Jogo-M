@@ -18,17 +18,17 @@ body {
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
 
-.pipe {
+.pedra{
     position: absolute;
-    bottom: 0px;
-    width: 70px;
-    animation: pipe-animation 1s infinite linear;
+    bottom: -22px;
+    width: 100px;
+    animation: pedra-animation 1s infinite linear; 
 }
 
-.mario {
+.heroi {
     width: 150px;
     position: absolute;
-    bottom:0px;
+    bottom:-8px;
 }
 
 .jump {
@@ -41,7 +41,7 @@ body {
     animation: clouds-animation 10s infinite linear;
 }
 
-@keyframes pipe-animation {
+@keyframes pedra-animation {
     from {
         right: -80px;
     }
@@ -56,15 +56,15 @@ body {
     }
 
     40% {
-        bottom: 160px;
+        bottom: 120px;
     }
 
     50% {
-        bottom: 160px;
+        bottom: 120px;
     }
 
     60% {
-        bottom: 160px;
+        bottom: 120px;
     }
 
     100% {
